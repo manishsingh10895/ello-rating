@@ -1,0 +1,17 @@
+{
+  "name": "ello-ranking",
+  "version": "1.0.0",
+  "description": "Module for calculating ello ranking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ello",
+    "game",
+    "ranking",
+    "game-rating"
+  ],
+  "author": "Manish",
+  "license": "ISC"
+}
