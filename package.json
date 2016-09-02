@@ -1,10 +1,10 @@
 {
-  "name": "ello-ranking",
+  "name": "elo-ranking",
   "version": "1.0.0",
-  "description": "Module for calculating ello ranking",
+  "description": "Module for calculating elo ranking",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests --recursive"
   },
   "keywords": [
     "ello",
@@ -13,5 +13,8 @@
     "game-rating"
   ],
   "author": "Manish",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
 }
