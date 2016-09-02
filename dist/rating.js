@@ -34,10 +34,6 @@ module.exports = function(player1, player2, kFactor)
   player1.currentRanking = Math.round(updatedR1);
   player2.currentRanking = Math.round(updatedR2);
 
-  console.log("Player1", player1);
-  console.log("Player2", player2);
-  console.log();
-
   return { player1: player1, player2: player2 };
 }
 
